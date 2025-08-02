@@ -61,9 +61,9 @@ namespace DrawingNotesAppSQLite
 			// 
 			this.listBoxResults.FormattingEnabled = true;
 			this.listBoxResults.ItemHeight = 16;
-			this.listBoxResults.Location = new System.Drawing.Point(738, 82);
+			this.listBoxResults.Location = new System.Drawing.Point(533, 83);
 			this.listBoxResults.Name = "listBoxResults";
-			this.listBoxResults.Size = new System.Drawing.Size(281, 164);
+			this.listBoxResults.Size = new System.Drawing.Size(486, 164);
 			this.listBoxResults.TabIndex = 2;
 			this.listBoxResults.SelectedIndexChanged += new System.EventHandler(this.listBoxResults_SelectedIndexChanged);
 			// 
@@ -72,7 +72,7 @@ namespace DrawingNotesAppSQLite
 			this.textBoxNote.Location = new System.Drawing.Point(34, 82);
 			this.textBoxNote.Multiline = true;
 			this.textBoxNote.Name = "textBoxNote";
-			this.textBoxNote.Size = new System.Drawing.Size(680, 165);
+			this.textBoxNote.Size = new System.Drawing.Size(471, 165);
 			this.textBoxNote.TabIndex = 3;
 			// 
 			// btnSelectFile
@@ -96,9 +96,9 @@ namespace DrawingNotesAppSQLite
 			// 
 			// pictureBoxPreview
 			// 
-			this.pictureBoxPreview.Location = new System.Drawing.Point(738, 279);
+			this.pictureBoxPreview.Location = new System.Drawing.Point(294, 279);
 			this.pictureBoxPreview.Name = "pictureBoxPreview";
-			this.pictureBoxPreview.Size = new System.Drawing.Size(281, 199);
+			this.pictureBoxPreview.Size = new System.Drawing.Size(725, 199);
 			this.pictureBoxPreview.TabIndex = 6;
 			this.pictureBoxPreview.TabStop = false;
 			// 
